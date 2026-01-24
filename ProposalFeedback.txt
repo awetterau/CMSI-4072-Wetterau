@@ -1,0 +1,43 @@
+
+CMSI 4072 Spring 2026
+Project Proposal Feedback
+Project: Drift AI
+=========================
+Proposal Document [2 points]:
+   Verbal Description:
+      You provide a clear high-level concept and you explain that Drift AI
+         is an application that uses conversational AI to simulate
+         professional scenarios which helps users improve speech and social
+         interaction skills.  This satisfies the requirement to state what
+         the project does at a high level.
+      You describe low-pressure practice for social/professional moments
+         feedback through transcript + tone analysis.  This conveys the
+         problem being solved and the general mechanism.
+      You list students seeking internships/jobs, new employees, people who
+         struggle with reading social cues, and international individuals
+         learning professional English nuances.  This directly satisfies
+         "Who are the intended users?"
+      This meets or exceeds the description requirements.
+
+   Justification:
+      You demonstrate a strong personal justification when you explain that
+         you have a passion for AI and mobile development, you have had
+         personal experiences that inspire the project, and you want to help
+         others in similar situations.  This aligns with the requirement to
+         state why this project is appropriate for you.
+      Further, you identify your existing skills and the new skills you want
+         to learn, which is extremely relevant to the course's goal that you
+         grow through technical challenge.
+
+
+Proposal Presentation [Slides and video] [3 points]:
+   Slides:
+         Document not submitted by deadline.  Zero points
+
+   Video:
+
+
+Summary:
+--------
+
+Nice job overall!  Keep up the good work.  Will update after video is posted.
