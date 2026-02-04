@@ -34,10 +34,33 @@ Proposal Presentation [Slides and video] [3 points]:
    Slides:
          Document not submitted by deadline.  Zero points
 
-   Video:
 
 
 Summary:
 --------
 
 Nice job overall!  Keep up the good work.  Will update after video is posted.
+
+
+VIDEO EVALUATION
+================
+Nice presentation!  This is a very interesting and useful project, with a
+strong social component.  I look forward to seeing how it comes out and also
+seeing how others respond to it.
+
+A couple of things on your presentation slides though.  There are a couple
+of slides that contain LOOOOOONG paragraphs of text.  It is better to have a
+set of bullets with just some small text so that the reader isn't distracted
+from what you are -saying- by having to -read- all that text.  Next time,
+try putting in bullets and condensing the paragraphs to a few short items.
+
+Another thing I noticed is on the title slide your name is misspelled.  You
+should make sure to spell check!  ...and I mean every time.
+
+You do seem to have the idea of the nuts and bolts of your project, but you
+seem to be working from a script or from written notes.  You should try to
+give your presentation from your 'head' knowledge and just talk about it.
+
+Yes, English is a weird language!  That's why this will be a good project.
+
+Nice job overall.  You earn back Four out of Five points for this deliverable.
