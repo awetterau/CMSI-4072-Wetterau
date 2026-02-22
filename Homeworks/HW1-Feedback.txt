@@ -1,0 +1,53 @@
+
+
+HW 1 - Stephens Book Chapters 1, 2, 4, and 5
+CMSI 4072 Spring 2026
+
+Category        Weight     Earned
+===========    ========    ======
+Problem 1.1    [8 pts.]       8.0
+Problem 1.2    [8 pts.]       8.0
+Problem 2.4    [1 pts.]       1.0
+Problem 2.5    [1 pts.]       1.0
+Problem 4.2    [5 pts.]       4.0
+Problem 4.4    [5 pts.]       5.0
+Problem 4.6    [1 pts.]       1.0
+Problem 4.8    [2 pts.]       2.0
+Problem 5.1    [1 pts.]       1.0
+Problem 5.3    [5 pts.]       4.0
+Problem 5.9    [3 pts.]       3.0
+
+      Subtotal [40 max]      40.0
+             Your Total      38.0
+
+         Letter grade   A
+
+=================
+SPECIFIC COMMENTS:
+
+Problem 1.1 ~ correct
+
+Problem 1.2 ~ correct
+
+Problem 2.4 ~ correct
+
+Problem 2.5 ~ correct
+
+Problem 4.2 ~ You identified two critical paths (“G–D–E–M–Q” and
+   “H–I–D–E–M–Q”). Calling them “methods” is a minor terminology slip.
+
+Problem 4.4 ~ Labeling/spelling (“Gnatt”) ...oops...
+
+Problem 4.6 ~ correct
+
+Problem 4.8 ~ correct
+
+Problem 5.1 ~ correct
+
+Problem 5.3 ~ A case could be made for your selections, but they're really
+   supposed to be mutually exclusive, only one answer per item...
+
+Problem 5.9 ~ correct
+
+=================
+nice work!
