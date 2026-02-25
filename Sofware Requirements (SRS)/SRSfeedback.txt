@@ -1,0 +1,74 @@
+
+Documentation Feedback ~ Deliverable #2
+Software Requirements Specification
+Initial Development Schedule
+CMSI 4072 Spring 2026
+=======================================
+
+COMPONENT BREAKDOWN:
+   Strengths
+      Identifies major system parts and their roles.
+      Mentions external service interaction via internet..pdf)
+   Suggestions
+      No hierarchical structure of components.
+      No explanation of communication flows between modules.
+      Missing data models, API contracts, and module responsibilities.
+
+FUNCTIONAL REQUIREMENTS:
+   Strengths
+      Covers all major functionality areas.
+      User stories illustrate expected tasks in detail.
+      Includes specific features: scenario descriptions, feedback scoring,
+         history tracking..pdf)
+   Suggestions
+      No error-handling cases (e.g., lost internet, failed scoring API).
+      No accessibility or UI consistency rules.
+      No constraints on data integrity or local caching.
+      Specify data storage constraints, retention, and permissions.
+
+PERFORMANCE REQUIREMENTS:
+   Strengths
+      Clear measurable thresholds (5 seconds load, <1 second latency,
+         1 minute feedback).
+      Addresses responsiveness for critical features such as live
+         conversation.
+   Suggestions
+      Add resource usage limits (CPU, memory, battery).
+      Provide performance expectations under weak network conditions.
+      Add thresholds for background processes and history loading.
+
+ENVIRONMENT REQUIREMENTS:
+   Strengths
+      Lists hardware and software for development and deployment clearly.
+      Includes device, OS, microphone, and network needs.
+      Covers both Android and iOS environments.
+   Suggestions
+      No mention of required permissions (microphone access is implied but
+      not specified formally).
+      No specification of storage or bandwidth needs beyond minimal values.
+      No description of compatibility across screen sizes or device classes.
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Component Breakdown               0.8/1
+   Functional Requirements           3.6/4
+   Performance Requirements          2.0/2
+   Environment Requirements          1.0/1
+                                     =====
+   Subtotal                          7.4/8
+   Preliminary Schedule              2.0/2
+   ------------------------------------------------------
+   Total Percentage:   9.4/10 = 94% which is an A
+
+You've met most of the desired measurements for this deliverable.  The
+functional requirements section provides clear user facing functionalities
+across UI, scenario selection, conversation handling, feedback, and
+progress tracking.  User stories outline expected behaviors.  Your SRS
+is very well done but could benefit from at least incorporating a few of
+the suggestions to make it even more complete, such as: adding a structured
+component hierarchy with diagrams; and defining interfaces and data
+exchanged between subsystems.
+
+Nice work on this deliverable ~ keep up the good work!
+
+
