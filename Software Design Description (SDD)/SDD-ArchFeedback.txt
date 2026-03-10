@@ -1,0 +1,141 @@
+
+Documentation Feedback ~ Deliverable #3
+Software Design Document ~ Architecture
+CMSI 4072 Spring 2026 ~ Drift AI
+=======================================
+
+6.1 INTRODUCTION SECTION:
+   System objectives section
+      Strengths:
+         Not present, but objectives can be inferred from content
+            (mobile learning app, conversational AI, scenario practice).
+      Suggestions:
+         Add explicit system objectives, divided into functional and
+            non-functional goals.
+         Include measurable performance or quality criteria such as
+            response time, API reliability, and data consistency.
+         Describe user-facing outcomes and backend operational goals.
+
+   Hardware, software, and human interfaces section
+      Strengths:
+         No Hardware interfaces explicitly provided.
+         Although not under a 6.1.3 heading, software dependencies are
+            mentioned within 6.2 (React Native, Supabase, HUME API).
+         Some UI information is present in 6.2, such as screen types and
+            flows.
+      Suggestions:
+         Describe expected mobile hardware characteristics such as
+            platform (iOS, Android), microphone and speaker usage, network
+            connectivity, and local storage needs.
+         Include constraints such as minimum OS version or device
+            capability for audio processing.
+         Create an explicit list of software interfaces including:
+            React Native framework.
+            Supabase Auth, Supabase Postgres, Edge Functions.
+            HUME EVI-3 conversational AI API.
+            Mobile OS services such as microphone, secure storage, and
+               networking.
+         Describe interface methods, protocols (HTTPS, JSON), and
+            versioning requirements.
+         Add a dedicated human-interface section listing:
+            Screens (home, scenario select, conversation view, analysis,
+               profile).
+            UI navigation flow and major user actions.
+            Accessibility guidelines, layout expectations, and device
+               ergonomics.
+         Include wireframes or mockups in an appendix.
+
+
+6.2 ARCHITECTURAL DESIGN SECTION:
+   Major softwre components section
+      Strengths:
+         Components are clearly identified:
+            Frontend (React Native).
+            Backend (Supabase with Auth, Postgres, Edge Functions).
+            External AI service (HUME EVI-3).
+         Modularity is emphasized.
+         Responsibilities for each component are clearly stated.
+      Suggestions:
+         Add explicit interface definitions indicating what each component
+         exposes and consumes.
+         Consider sub-component breakdown, such as:
+            Frontend state-management layer.
+            Backend function structure.
+            AI integration wrapper or abstraction layer.
+         Clarify data models and schemas (user, scenario, history).
+         Explain architectural rationale for choices such as Supabase and
+            external conversational AI.
+
+   Major software interactions section
+      Strengths:
+         Communication protocols are clearly identified (REST, HTTPS,
+            JSON).
+         User authentication and token handling are described.
+         The interaction flow between frontend, backend, and AI is
+            presented clearly.
+         The description acknowledges client-side secure storage and
+            backend OAuth communication.
+      Suggestions:
+         Add sequence diagrams to make interaction order more explicit.
+         Specify data formats exchanged at each interaction point.
+         Discuss error conditions, retry logic, offline behavior, and
+            API-rate limitations.
+         Clarify synchronous vs asynchronous behavior, especially for AI
+            calls that may introduce latency.
+         Note any performance or security constraints driving the
+            interaction design.
+
+   Architectural design diagrams section
+      Strengths:
+         Includes a use-case diagram, class diagram, and deployment
+            diagram.
+         Diagrams visually support major architectural concepts.
+      Suggestions:
+         The class diagram should show data structures and relationships
+            in more depth if it is intended to be architectural rather than
+            implementation-level.
+         The deployment diagram can be expanded to show:
+            Mobile device components.
+            External API endpoints.
+            Authentication flow.
+
+
+OVERALL ASSESSMENT:
+   INTRODUCTION                        1.0
+   System objectives                   1.0
+   H/W, S/W, Human I/F                 1.0
+
+   ARCHITECTURAL DESIGN SECTION:
+   Major softwre components            1.0
+   Major software interactions         1.0
+   Architectural design diagrams       5.0
+                                     ======
+   Subtotal                           10.0
+   ------------------------------------------------------
+   Total Percentage:  10/10 = 100% which is an A-plus
+       1/2 off for lateness = 50% on this deliverable.
+
+The document was not submitted by the due date, no other arrangements were
+made in advance.  Document was not located in repository by March 5 which
+is over a week past the due date.  Zero points for this deliverable.
+
+
+============================================================================
+RE-EVALUATED 2026-03-09
+-----------------------
+I have filled in the feedback above based on your completed submission which
+was committed to your repository today, according to the commit timestamp.
+
+
+OVERALL EVALUATION:
+Although delivered past the due date, this is good work!  You missed a couple
+of the sections that were needed.
+Your document provides a generally clear architectural description for section
+6.2, including components, interactions, and diagrams.  However, sections 6.1
+through 6.1.4 are entirely missing, and the SDD guideline requires these to
+establish full architectural completeness.  Filling in the missing subsections
+will greatly strengthen the document by framing the architecture with the
+appropriate context, drivers, assumptions, and constraints.
+
+Still, the diagrams are very good and you've obviously got a good idea of
+what you are doing.  Looking forward to seeing the detailed design!
