@@ -1,0 +1,57 @@
+
+
+HW 3 - Stephens Book Chapters 7 and 8
+CMSI 4072 Spring 2026
+
+Category        Weight     Earned
+===========    ========    ======
+Problem 7.1    [5 pts.]      4.0
+Problem 7.2    [4 pts.]      4.0
+Problem 7.4    [5 pts.]      5.0
+Problem 7.5    [4 pts.]      4.0
+Problem 7.7    [5 pts.]      5.0
+Problem 8.1    [5 pts.]      4.0
+Problem 8.3    [5 pts.]      5.0
+Problem 8.5    [4 pts.]      4.0
+Problem 8.9    [4 pts.]      4.0
+Problem 8.11   [5 pts.]      2.0
+Problem 8.12   [4 pts.]      4.0
+
+       Subtotal [50 max]     50.0
+              Your Total     45.0
+         45.0 out of 50.0 =  90.0%
+
+         Letter grade   A-minus
+
+=================
+SPECIFIC COMMENTS:
+Problem 7.1
+   There are still more comments you can get rid of.  Anywhere there is a
+   comment that simply re-states what the code already says, you can get rid
+   of it.
+Problem 7.2
+   Correct
+Problem 7.4
+   Correct
+Problem 7.5
+   Correct
+Problem 7.7
+   Correct
+Problem 8.1
+   Consider checking the boundary conditions of -1, 0, +1, and also -1,000,000
+   and +1,000,000 to make sure these conditions are verified correct.
+Problem 8.3
+   Correct
+Problem 8.5
+   Correct
+Problem 8.9
+   Correct
+Problem 8.11
+   Not a bad analysis, but it's not quite there.  For the Lincoln index, you
+   need to calculate based on the pairs, giving three values which must then
+   be averaged.  This means there are approximately 14 bugs total, of which
+   the team has found 10 so there are still four bugs unaccounted for.
+Problem 8.12
+   Correct
+
+nice work!
