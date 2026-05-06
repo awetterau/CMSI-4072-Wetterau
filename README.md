@@ -86,8 +86,6 @@ If on Android:
 npx expo run:android
 ```
 
-Wait for install to finish
-
 ## Stop
 
 1. Go to Terminal
@@ -121,11 +119,11 @@ rm -rf node_modules
 
 ![Home](screenshots/home.png)
 
-![Scenario selection](screenshots/scenario-selection.png)
+![Scenario selection](screenshots/scenarioselection.png)
 
-![Voice Session](screenshots/conversation-page.png)
+![Voice Session](screenshots/score.png)
 
-![Score view](screenshots/score-view.png)
+![Score view](screenshots/conversationpage.png)
 
 ### Starting a scenario
 
@@ -174,16 +172,12 @@ If on Android:
 
 ### App Will Not Start
 
-Try this:
-
 ```bash
 npm install
 npx expo start
 ```
 
 ### iOS Build Fails
-
-Try this:
 
 ```bash
 npx pod-install ios
@@ -237,5 +231,4 @@ Check:
 
 ## Support
 
-August Wetterau
-august.wetterau1742@gmail.com
+Feel free to email august.wetterau1742@gmail.com with any questions, comments, or concerns
